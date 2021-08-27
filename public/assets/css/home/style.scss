@@ -15,9 +15,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.inicial {
+.inicial-1 {
     display: flex;
     justify-content: space-between;
+    margin-left: 65px;
     .bmj {
         .titulo {
             h1 {
@@ -31,6 +32,74 @@ body {
                 letter-spacing: 0em;
             }
         }
+    }
+    .menu {
+        .icone {
+            margin-top: 60px;
+            z-index: 9999;
+            position: relative;
+            .btn-hamb {
+                border: none;
+            }
+        }
+
+        .menu-ativo {
+            position: absolute;
+            right: 80px;
+            bottom: 140px;
+            width: 388px;
+            height: 545px;
+            background-color: $white;
+            border-radius: 33px;
+            z-index: 999;
+            display: none;
+            .titulo-2 {
+                h1 {
+                    color: $primary;
+                    padding-top: 73px;
+                    padding-left: 36px;
+                    font-family: Poppins;
+                    font-size: 31px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 46px;
+                    letter-spacing: 0em;
+                }
+            }
+            .menu-links {
+                a {
+                    padding-left: 36px;
+                    color: #000;
+                    text-decoration: none;
+                    font-family: Barlow;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 45px;
+                    letter-spacing: 0em;
+                }
+            }
+            .contatos {
+                margin-top: 20px;
+                span {
+                    padding-left: 36px;
+                    color: $primary;
+                    font-family: Poppins;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 32px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+.inicial {
+    display: flex;
+    justify-content: center;
+    .bmj {
         .credito {
             margin-top: 42px;
             h1 {
@@ -99,81 +168,19 @@ body {
             }
         }
     }
-    .homem{ 
+    .homem {
         width: 678px;
-        img{
+        img {
             width: 560px;
         }
         z-index: 10;
     }
-    .balao{
+    .balao {
         position: absolute;
         left: 390px;
         top: 20px;
-        img{
+        img {
             width: 100%;
-        }
-    }
-    .menu {
-        .icone {
-            margin-top: 60px;
-            z-index: 10;
-            position: relative;
-            .btn-hamb {
-                border: none;
-            }
-        }
-
-        .menu-ativo {
-            position: absolute;
-            right: 80px;
-            bottom: 140px;
-            width: 388px;
-            height: 545px;
-            background-color: $white;
-            border-radius: 33px;
-            z-index: 9;
-            display: none;
-            .titulo-2 {
-                h1 {
-                    color: $primary;
-                    padding-top: 73px;
-                    padding-left: 36px;
-                    font-family: Poppins;
-                    font-size: 31px;
-                    font-style: normal;
-                    font-weight: 900;
-                    line-height: 46px;
-                    letter-spacing: 0em;
-                }
-            }
-            .menu-links {
-                a {
-                    padding-left: 36px;
-                    color: #000;
-                    text-decoration: none;
-                    font-family: Barlow;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 900;
-                    line-height: 45px;
-                    letter-spacing: 0em;
-                }
-            }
-            .contatos {
-                margin-top: 20px;
-                span {
-                    padding-left: 36px;
-                    color: $primary;
-                    font-family: Poppins;
-                    font-size: 21px;
-                    font-style: normal;
-                    font-weight: 900;
-                    line-height: 32px;
-                    letter-spacing: 0em;
-                    text-align: left;
-                }
-            }
         }
     }
 }

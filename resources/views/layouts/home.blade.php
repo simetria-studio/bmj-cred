@@ -22,7 +22,7 @@
 
 <body>
     <div class="container">
-        <div class="inicial">
+        <div class="inicial-1">
             <div class="bmj">
                 <div class="titulo">
                     <h1>BMJ CRED</h1>
